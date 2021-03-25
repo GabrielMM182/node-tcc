@@ -5,6 +5,7 @@ const sql = require('mssql')
 //  AMBIENTE LOCAL 
 const config = 'mssql://sa:123456@DESKTOP-PCLIDCP/\SA/modelo'; //notebook
 
+const config = 'mssql://sa:123456@DESKTOP-436GPST/\SA/modelo'; //pc
 
 
 const poolPromise = new sql.ConnectionPool(config)
